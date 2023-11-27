@@ -5,7 +5,7 @@ import { CartProvider } from './contexts/cart.context';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
-
+import Hader from './components/Hader/Hader';
 import NavigationBar from './components/NavigationBar/NavigationBar';
 import Home from './routes/Home/Home';
 import Shop from './routes/Shop/Shop';
@@ -18,12 +18,18 @@ import Checkout from './components/Checkout/Checkout.component';
 
 
 
+
+
 const App=()=> {
   return (
     <div className='main-div'>
+      
+      <Hader />
       <NavigationBar />
       <Outlet />
       <Footer />
+
+   
     </div>
   );
 }
@@ -63,6 +69,7 @@ const appRouter=createBrowserRouter([
         element:<Checkout/>
       
       }
+
       
 
     ]

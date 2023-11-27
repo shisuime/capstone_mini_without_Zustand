@@ -1,3 +1,4 @@
+import Button from '../common/Button/Button.component';
 import './Category-item.styles.scss'
 
 const CategoryItem =({category})=>{
@@ -8,10 +9,12 @@ const CategoryItem =({category})=>{
                         backgroundImage: `url(${imageUrl})`
                     }}/>
                 <div className="category-body-container">
+                    
                     <h2>{title}</h2>
                     <p> Shop Now</p>
                 </div>
             </div>
+        
     )
 }
 

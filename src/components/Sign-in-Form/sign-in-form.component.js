@@ -70,8 +70,10 @@ const SignInForm=()=>{
 
                 
                 <div className="buttons-container">
-                <Buttton  type="submit">Sign In</Buttton>
-                <Buttton type="button" buttonType='google' onClick={SignInwithGoogle}>Sign in with Google</Buttton>
+                <Buttton className ='glow-on-hover' type="submit">Sign In</Buttton>
+                </div>
+                <div className="Buttons-container">
+                <Buttton className ='Glow-on-hover' type="button" buttonType='google' onClick={SignInwithGoogle}>Sign in with Google</Buttton>
                 </div>
                 
             </form>

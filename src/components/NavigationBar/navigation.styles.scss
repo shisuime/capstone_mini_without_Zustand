@@ -4,25 +4,41 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    background-color:black;
   
     .logo-container {
-      height: 100%;
-      width: 70px;
-      padding: 25px;
+      background-color:whitesmoke;
+      height: 114%;
+      width: 97px;
+      padding: 22px;
+      margin-top: 10px;
+      margin-left: 0.7%;
     }
+    
   
     .nav-links-container {
+      color: red;
+      background-color: black;
       width: 50%;
-      height: 100%;
+      height: 152%;
       display: flex;
       align-items: center;
       justify-content: flex-end;
   
       .nav-link {
+        color:cornflowerblue;
         padding: 10px 15px;
         cursor: pointer;
         font-size: 20px;
+        
       }
     }
+ 
+
+ 
+ 
+
+ 
   }
+  
   

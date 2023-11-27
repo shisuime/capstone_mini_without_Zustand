@@ -60,7 +60,7 @@ const SignUpForm=()=>{
         <div className="sign-up-container">
             <h2>Don't have an account?</h2>
             <span>Sign up with your email and password</span>
-            <form onSubmit={handlesubmit}>
+            <form className="form" onSubmit={handlesubmit}>
                 
                 <FormInput label="Display Name" type="text" required onChange={handlechange} name="displayName" value={displayName}/>
 
@@ -72,9 +72,13 @@ const SignUpForm=()=>{
 
                 
                 <FormInput label="Confirm Password" type="password" required onChange={handlechange} name="confirmpassword"value={confirmpassword}/>
-                <Buttton  type="submit">Sign Up</Buttton>
+                <div className="wrap">
+                <Buttton className ='btn btn-primary btn-ghost btn-shine'  type="submit">Sign Up</Buttton>
+                </div>
             </form>
         </div>
+        
     )
 }
+
 export default SignUpForm

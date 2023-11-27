@@ -3,7 +3,9 @@ import './Button.styles.scss'
 
 const BUTTON_TYPE_CLASSES={
     google:'google-sign-in',
-    inverted:'inverted'
+    inverted:'inverted',
+   searchbutton:'search-button',
+   btnbtnprimarybtnghostbtnshine:'btn btn-primary btn-ghost btn-shine'
 }
 
 
@@ -14,5 +16,6 @@ const Button =({children,buttonType,...otherProps})=>{
         >{children}</button>
     )
 }
+
 
 export default Button
