@@ -1,4 +1,5 @@
 import CrwnLogo from '../../Assets/crown.svg'
+import KingLogo from '../../Assets/king.svg'
 import { Link } from 'react-router-dom';
 import './navigation.styles.scss'
 import { useContext,useState } from 'react';
@@ -28,7 +29,7 @@ const NavigationBar = () => {
     <>
       <div className="navigation">
         <Link to="/" className="logo-container">
-          <img className="logo" src={CrwnLogo} alt='crown-logo'/>
+          <img className="logo" src={KingLogo} alt='king-logo'/>
         </Link>
        
         <div className="nav-links-container">
@@ -61,5 +62,6 @@ const NavigationBar = () => {
     </>
   );
 };
+
 
 export default NavigationBar;

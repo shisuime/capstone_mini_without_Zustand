@@ -3,6 +3,7 @@ import'./Hader.scss'
 import { useState } from 'react';
 
 
+
 function Hader(props) {
 
 
@@ -15,8 +16,22 @@ function Hader(props) {
 
 
 
+
     return (
         <>
+
+        
+<div class="wrapper">
+    
+    
+    <div class="main-div main-div3">
+      <h1>ROYAL CROWN</h1>
+    </div>
+  </div>
+            
+
+        
+
 
        
 
