@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { CartContext } from "../../contexts/cart.context"
 import CheckoutItem from "../Checkout-item/Checkout-item.component"
 import Button from '../common/Button/Button.component'
+import { Link } from "react-router-dom"
 
 
 import "./Checkout.styles.scss"
@@ -38,7 +39,7 @@ const Checkout= () => {
             {cartItems.map((cartitem)=> (
                 <CheckoutItem key={cartitem.id} cartitem={cartitem}/>
             ))}
-            <Button>Checkout</Button>
+            <Link to="/payment"><Button> Go to payment</Button></Link>
             <span className="total">Total: ${carttotal}</span>
 
         </div>

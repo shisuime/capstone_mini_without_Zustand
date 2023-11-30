@@ -14,6 +14,7 @@ import Error from './components/Error/Error';
 import Orders from './routes/Orders/Orders';
 import Signin from './routes/Sign in/Signin';
 import Checkout from './components/Checkout/Checkout.component';
+import PaymentPage from './components/payment/payment.component';
 // import { loadStripe } from '@stripe/stripe-js';
 // import {Elements} from '@stripe/react-stripe-js';
 // import InjectCheckout from './components/Card/Cardcomponents';
@@ -83,7 +84,15 @@ const appRouter=createBrowserRouter([
       
         element:<Checkout/>
       
-      }
+      },
+      {
+
+        path:"/payment",
+      
+        element:<PaymentPage/>
+      
+      },
+
 
       
 
