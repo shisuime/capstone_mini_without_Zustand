@@ -4,8 +4,8 @@ import './Button.styles.scss'
 const BUTTON_TYPE_CLASSES={
     google:'google-sign-in',
     inverted:'inverted',
-   searchbutton:'search-button',
-   btnbtnprimarybtnghostbtnshine:'btn btn-primary btn-ghost btn-shine'
+//    searchbutton:'search-button',
+//    btnbtnprimarybtnghostbtnshine:'btn btn-primary btn-ghost btn-shine'
 }
 
 
