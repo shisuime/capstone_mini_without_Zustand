@@ -1,10 +1,14 @@
-.product-card-container {
+.full-product-card-container{
+  border:20px white;
+
+  .product-card-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     height: 350px;
     align-items: center;
     position: relative;
+    
   
     img {
       width: 100%;
@@ -56,3 +60,5 @@
 
   }
   
+}
+
