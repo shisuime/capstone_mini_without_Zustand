@@ -19,7 +19,7 @@ const CartDropdown = ()=>{
             
             <Link to='/checkout'>
             <div className='checkout-button-container'>
-            <Button >GO TO CHECKOUT</Button>
+            <Button  >GO TO CHECKOUT</Button>
             </div>
             </Link>
             
