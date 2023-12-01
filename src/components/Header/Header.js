@@ -1,10 +1,10 @@
 import Button from "../common/Button/Button.component"
-import'./Hader.scss'
+import'./Header.scss'
 import { useState } from 'react';
 
 
 
-function Hader(props) {
+function Header(props) {
 
 
     const [Value, setValue] = useState('');
@@ -21,10 +21,10 @@ function Hader(props) {
         <>
 
         
-<div class="wrapper">
+<div className="wrapper">
     
     
-    <div class="main-div main-div3">
+    <div className="main-div main-div3">
       <h1>ROYAL CROWN</h1>
     </div>
   </div>
@@ -40,7 +40,7 @@ function Hader(props) {
                 <input className='searchInput' type="text" name="" placeholder="Search" onChange={onchangehandeler} value={Value} />
                 <Button className="searchButton" href="#">
 
-                    <i class="material-icons">
+                    <i className="material-icons">
                         search
                     </i>
                 </Button>
@@ -51,4 +51,4 @@ function Hader(props) {
     );
 }
 
-export default Hader
+export default Header
