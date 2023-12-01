@@ -15,28 +15,21 @@ import Orders from './routes/Orders/Orders';
 import Signin from './routes/Sign in/Signin';
 import Checkout from './components/Checkout/Checkout.component';
 import PaymentPage from './components/payment/payment.component';
-// import { loadStripe } from '@stripe/stripe-js';
-// import {Elements} from '@stripe/react-stripe-js';
-// import InjectCheckout from './components/Card/Cardcomponents';
 
 
 
-// const stripePromise = loadStripe("pk_test_51OHriXSGdFiXBYjdjeMLSzdNbli6jgLctfAzsH6H3IWsgpmPkQLWUB1ajumRtopP3KsMFMAvgzhtO7Ml9zwEndEr00NngVbUlo"); 
+
+
+
 
 
 const App=()=> {
-  // console.log(stripePromise);
+  
   return (
     <>
-    {/* <div className='product'>
-      <Elements stripe={stripePromise}>
-        <InjectCheckout/>
+  
 
-
-
-      </Elements>
-
-    </div> */}
+    
     <div className='main-div'>
       
       <Hader />
