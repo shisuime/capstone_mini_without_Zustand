@@ -1,11 +1,11 @@
 import './index.styles.scss'
 import { UserProvider } from './contexts/user.context';
-import { ProductsProviders } from './contexts/products.context';
+import { CategoriesProviders } from './contexts/categories.context';
 import { CartProvider } from './contexts/cart.context';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
-import Hader from './components/Hader/Hader';
+import Header from './components/Header/Header';
 import NavigationBar from './components/NavigationBar/NavigationBar';
 import Home from './routes/Home/Home';
 import Shop from './routes/Shop/Shop';
@@ -15,11 +15,7 @@ import Orders from './routes/Orders/Orders';
 import Signin from './routes/Sign in/Signin';
 import Checkout from './components/Checkout/Checkout.component';
 import PaymentPage from './components/payment/payment.component';
-
-
-
-
-
+import DirectoryItem from './components/Directory-item/Directory-item.component';
 
 
 
@@ -27,12 +23,10 @@ const App=()=> {
   
   return (
     <>
-  
-
     
     <div className='main-div'>
       
-      <Hader />
+      <Header />
       <NavigationBar />
       <Outlet />
       <Footer />
@@ -47,11 +41,11 @@ const appRouter=createBrowserRouter([
   {
     path:"/",
     element:<UserProvider>
-      <ProductsProviders>
+      <CategoriesProviders>
         <CartProvider>
         <App/>
         </CartProvider>
-        </ProductsProviders>
+        </CategoriesProviders>
       </UserProvider>,
     errorElement:<Error />,
     children:[
@@ -85,6 +79,14 @@ const appRouter=createBrowserRouter([
         element:<PaymentPage/>
       
       },
+      {
+
+        path:"/shop/:category",
+      
+        element:<DirectoryItem/>
+      
+      },
+
 
 
       

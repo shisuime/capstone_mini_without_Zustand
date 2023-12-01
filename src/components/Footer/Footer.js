@@ -6,7 +6,7 @@ const Footer=()=>{
     return(
         <>
         <div className="footer">
-            <h1 className="footers">About US</h1>
+            <h2 className="footers">About US</h2>
         </div>
        
       </>

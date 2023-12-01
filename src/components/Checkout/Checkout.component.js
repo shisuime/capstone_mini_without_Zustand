@@ -39,7 +39,7 @@ const Checkout= () => {
             {cartItems.map((cartitem)=> (
                 <CheckoutItem key={cartitem.id} cartitem={cartitem}/>
             ))}
-            <Link to="/payment"><Button> Go to payment</Button></Link>
+            <Link to="/payment"><Button buttonType="inverted"> Go to payment</Button></Link>
             <span className="total">Total: ${carttotal}</span>
 
         </div>
