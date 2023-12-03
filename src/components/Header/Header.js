@@ -25,7 +25,7 @@ function Header(props) {
     
     
     <div className="main-div main-div3">
-      <h1>ROYAL CROWN</h1>
+      <h1 className="logoname">ROYAL CROWN</h1>
     </div>
   </div>
             
