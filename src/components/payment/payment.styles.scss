@@ -1,18 +1,12 @@
-.setting{
-    margin-left: 15vh;
-    color: darkturquoise;
+.setting {
+  margin-left: 15vh;
+  color: #000000;
 }
 
-
-
-.accountholdername{
-    width: 394px;
-    margin-left: 69vh;
-
-    
-
+.accountholdername {
+  width: 394px;
+  margin-left: 69vh;
 }
-
 
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
@@ -26,15 +20,11 @@
   box-sizing: border-box;
 }
 
-
-
-.payments{
-    margin-left: 15vh;
-    
+.payments {
+  margin-left: 15vh;
 }
 
 .glowing-btn {
-  
   position: relative;
   color: var(--glow-color);
   cursor: pointer;
@@ -45,7 +35,6 @@
   perspective: 2em;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
-
 
   -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
@@ -224,7 +213,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .glowing-btn{
+  .glowing-btn {
     font-size: 1em;
   }
 }

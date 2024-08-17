@@ -1,11 +1,10 @@
-h2{
-    color: #00fff6;
+h2 {
+  color: #000000;
 }
 
-.products-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    column-gap: 10px;
-    row-gap: 50px   ;
-    
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 50px;
 }

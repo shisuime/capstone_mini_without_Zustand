@@ -1,5 +1,5 @@
-.full-product-card-container{
-  border:20px white;
+.full-product-card-container {
+  border: 20px white;
 
   .product-card-container {
     width: 100%;
@@ -8,15 +8,14 @@
     height: 350px;
     align-items: center;
     position: relative;
-    
-  
+
     img {
       width: 100%;
       height: 95%;
       object-fit: cover;
       margin-bottom: 5px;
     }
-  
+
     button {
       width: 80%;
       opacity: 0.7;
@@ -24,41 +23,34 @@
       top: 255px;
       display: none;
     }
- 
-  
-  
+
     &:hover {
       img {
         opacity: 0.8;
       }
-      
-  
+
       button {
         opacity: 0.85;
         display: flex;
-        
       }
     }
-  
+
     .foter {
       width: 100%;
       height: 5%;
       display: flex;
       justify-content: space-between;
       font-size: 18px;
-      color: #49ecec;
-  
+      color: #000000;
+
       .name {
         width: 90%;
         margin-bottom: 15px;
       }
-  
+
       .price {
         width: 10%;
       }
     }
-
   }
-  
 }
-
